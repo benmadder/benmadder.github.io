@@ -21,7 +21,7 @@
                 <img class="navbar-brand" href="index.html" src="img/b.png">
 
                 <!-- Collapse button -->
-                <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+                <button class="navbar-toggler second-button shadow-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
                 aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
                 </button>
@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent23">
 
                     <!-- Links -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto ml-4">
                         <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -49,11 +49,43 @@
             
         </header>
         
-        <div class="jumbotron mt-5 bg-white text-center">
-            <div class="container">
-                <h1 class="display-4">Hey, I am Ben. I am a aspiring designer currently studying a Bachelor of Design (Interaction Design)/Bachelor of Information Technology(Information Systems) at the Queensland University of Technology</h1>
+        <div class="container main">
+            <div class="jumbotron mt-5 bg-white text-center row">
+                <div class="container">
+                    <h1 class="display-4">Hey, I am Ben. I am a aspiring designer currently studying a Bachelor of Design (Interaction Design)/Bachelor of Information Technology(Information Systems) at the Queensland University of Technology</h1>
+                </div>
             </div>
+
+            <section id="section04" class="demo row">
+                <a href="#section05"><span></span></a>
+            </section>
         </div>
+
+
+        <footer class="footer text-center py-5 row">
+            <hr>
+            <div class="container">
+            <div class="text-center py-4 lead">Get in touch at <a class="email" href="mailto:benmadder109@gmail.com">benmadder109@gmail.com</a></div>
+                <div class="row d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/ben-madder-54a372130/" class="col-1">
+                        <img class="social" src="img/linkedin.png"/>
+                    </a>
+                    <a href="https://twitter.com/ben_madder" class="col-1">
+                        <img class="social" src="img/twitter.png">
+                    </a>
+                    <a href="https://www.behance.net/benmadder1ea94" class="col-1">
+                        <img class="social" src="img/behance.png">
+                    </a>
+                    <a href="https://youtube.com/channel/UCofVKCG-itUsea4oaL6KukQ" class="col-1">
+                        <img class="social" src="img/youtube.png">
+                    </a>
+                    <a href="https://www.instagram.com/benmadder/?hl=en" class="col-1">
+                        <img class="social" src="img/instagram.png">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
         
         
         <!-- Optional JavaScript -->
@@ -78,6 +110,12 @@
             });
             });
         </script>
+        <script>$(function() {
+            $('a[href*=#]').on('click', function(e) {
+              e.preventDefault();
+              $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+            });
+          });</script>
     </body>
 </html>
 
