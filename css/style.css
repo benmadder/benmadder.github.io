@@ -28,6 +28,11 @@ header img{
 }
 
 
+a {
+  position: absolute;
+  z-index: 9999;
+}
+
 
 /* Icon 1 */
 
@@ -220,3 +225,5 @@ hr {
       font-size: 200% !important;
     }
 }
+
+
