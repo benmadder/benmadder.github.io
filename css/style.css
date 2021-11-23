@@ -30,6 +30,7 @@ header img{
 
 
 
+
 /* Icon 1 */
 
 .animated-icon1, .animated-icon2, .animated-icon3 {
@@ -309,6 +310,10 @@ hr {
 @media only screen and (max-width: 768px){
     h1 {
       font-size: 200% !important;
+    }
+
+    p {
+      font-size: 80%;
     }
 }
 
