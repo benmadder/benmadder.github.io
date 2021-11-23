@@ -215,6 +215,7 @@ hr {
   height: 50px;
   background-size: 50px 50px;
   position: absolute;
+  z-index: 9999;
 }
   
 
