@@ -275,6 +275,14 @@ hr {
   position: absolute;
 }
 
+#solar_system_generator{
+  height: 50%;
+  top: 50%;
+  position: relative;
+  z-index: 11;
+
+}
+
 .project_container:hover img {
   -ms-transform:scale(1.1);
   -webkit-transform:scale(1.1);
