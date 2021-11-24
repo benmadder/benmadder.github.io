@@ -217,7 +217,7 @@ hr {
   background-size: 50px 50px;
   z-index: 9999;
   position: relative;
-
+  color: #000;
 }
 
 .resume {
@@ -229,9 +229,11 @@ hr {
 }
 
 
-.resume:hover {
+.resume_box:hover .resume{
   transform: scale(1.05);
 }
+
+
   
 
 .project_container {
