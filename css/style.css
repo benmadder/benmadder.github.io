@@ -327,4 +327,13 @@ hr {
     }
 }
 
+.body-text{
+  font-size: 125%;
+}
+
+@media only screen and (max-height: 675px){
+  .hidden {
+    display: none;
+  }
+}
 
