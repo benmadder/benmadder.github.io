@@ -325,6 +325,10 @@ hr {
     p {
       font-size: 80%;
     }
+
+    .body-text{
+      text-align: center !important;
+    }
 }
 
 .body-text{
